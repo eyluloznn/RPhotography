@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-Potographer</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" />
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        rel="stylesheet""/>
+
+    <!-- custom css link -->
+    <link rel=" stylesheet" href="css/style.css">
+
+    <!-- custom fonts link -->
+    <link rel="stylesheet" href="font/font.css">
+
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="images/loading.svg">
+    <link rel="preload" as="image" href="images/loading-circle.svg">
+
+
+</head>
+
+<body class="active" id="top">
+
+    <!-- preloading -->
+
+    <div class="loading" data-loading>
+        <img src="images/loading.svg" width="55" height="55" class="img" alt="loading">
+        <img src="images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+
+    </div>
+
+
+    <!-- header start -->
+
+    <header class="header" data-header>
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" width="40" height="40" alt="Richard logo">
+                </a>
+
+                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                    <img src="images/menu.svg" width="17" height="17" alt="menu icon" srcset="">
+                </button>
+
+                <nav class="navbar-bar" data-navbar>
+
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="images/nav-logo.svg" width="140" height="40" alt="Richard logo" class="img">
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                            <span class="span one"></span>
+                            <span class="span two"></span>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list">
+
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#about" class="navbar-link" data-nav-link>About</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-bottom">
+                        <button class="login-btn">
+                            <img src="images/user.svg" width="21" height="21" alt="user icon">
+                        </button>
+                        <p class="navbar-title">My Address</p>
+
+                        <address class="navbar-text">
+                            3278 INdiana Avenue, Waiaula, Hawaii
+                        </address>
+
+                        <p class="navbar-text">
+                            Urgent issue? call us at <a href="tel:0008561346" class="contact-link">808-561-3846</a>
+                        </p>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="overlay" data-nav-toggle ddata-overlay></div>
+        </div>
+
+    </header>
+
+    <!-- header start -->
+
+    <main>
+        <article>
+
+            <!-- hero section start -->
+
+            <section class="section hero" id="home" aria-label="hero-banner">
+                <div class="container hero-wrapper">
+
+                    <img src="images/hero-banner.png" width="322" height="322" alt="" class="hero-banner" data-reveal>
+
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title">Richard Ryan</h1>
+
+                        <div class="wrapper h2">
+                            <strong class="strong" data-letter-effect>Photographer</strong>
+                            <strong class="strong" data-letter-effect>Shutterburg</strong>
+                            <strong class="strong" data-letter-effect>Cameraman</strong>
+                            <strong class="strong" data-letter-effect>Pacific Portraits</strong>
+                        </div>
+
+                        <p class="hero-text">15+ Years of Experience</p>
+
+                    </div>
+                </div>
+
+                <img src="images/hero-shape.svg" width="221" height="189" alt="" class="shape">
+            </section>
+
+            <!-- hero section end -->
+
+
+            <!-- gallery section start -->
+
+            <section class="section gallery" id="gallery">
+                <div class="container">
+
+                    <ul class="gallery-list row gallery-wrapper">
+
+                        <li class="gallery-item">
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-1.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" height="20" alt="">
+                                </a>
+                            </div>
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-2.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-3.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-4.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-5.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-6.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-7.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                            <div class="gallery-card" data-reveal>
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/gallery-8.jpg" class="img-cover" alt="The Drunken">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h6">
+                                        <a href="#" class="card-title">The Drunken</a>
+                                    </h3>
+                                    <span class="card-tag">Food, Event</span>
+                                </div>
+
+                                <a href="#" class="btn-icon" aria-label="See project">
+                                    <img src="images/arrow-forward.svg" width="20" alt="">
+                                </a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                    <a href="#service" class="scroll-down" aria-label="Scroll down">
+                        <img src="images/scroll-down.svg" width="40" height="40" alt="">
+                    </a>
+
+                    <img src="images/gallery-shape.svg" class="shape" width="220" height="78" alt="">
+                </div>
+            </section>
+
+            <!-- gallery section end -->
+
+
+            <!-- category section start -->
+
+            <section class="section category" aria-label="Photography category">
+                <div class="container">
+
+                    <ul class="category-list">
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Landscape</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-1.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Model</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-2.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Street</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-3.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Product</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-5.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Fashion</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-5.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Film</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-6.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Architecture</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-7.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li class="category-item" data-reveal>
+                            <a href="#" class="category-card">
+                                <h3 class="h4 card-title">Event</h3>
+
+                                <figure class="card-banner img-holder">
+                                    <img src="images/category-8.jpg" loading="lazy" alt="Landscape" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- category section end -->
+
+
+            <!-- about section start -->
+
+            <section class="section about" id="about" aria-label="about me">
+                <div class="container about-wrapper">
+
+                    <div class="about-content">
+
+                        <h2 class="h2 section-title" data-reveal>
+                            Hi. I’m <br>
+                            Richard Ryan
+                        </h2>
+
+                        <div class="wrapper has-before" data-reveal>
+
+                            <p class="section-text">
+                                A passionate
+                                <em class="em">photograher</em>
+                                who are working in this field for
+                                <em class="em">last 10 years.</em>
+                                I’m ready to give you my best.
+                            </p>
+
+                            <img src="images/signature.png" width="151" height="92" loading="lazy" alt="signature"
+                                class="img">
+
+                        </div>
+
+                    </div>
+
+                    <figure class="about-banner" data-reveal="">
+
+                        <div class="img-holder has-before" style="--width: 512; --height: 684;">
+                            <img src="images/about-banner.jpg" width="512" height="684" loading="lazy"
+                                alt="Riachard Ryan" class="img-cover">
+                        </div>
+
+                        <img src="images/about-shape-1.png" width="178" height="178" loading="lazy" alt=""
+                            class="shape shape-1">
+                    </figure>
+
+                    <img src="images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
+                        class="shape shape-3">
+
+                </div>
+            </section>
+
+            <!-- about section end -->
+
+            <!-- service section start -->
+
+            <section class="section service" id="service" aria-label="">
+
+                <p class="section-subtitle container" id="service-lable">My Services </p>
+
+                <ul class="service-list">
+                    <li data-reveal>
+                        <div class="service-card container">
+                            <img src="images/service-1.jpg" width="340px" height="380px" loading="lazy"
+                                alt="Wedding Photography" class="img">
+
+                            <div>
+                                <h3 class="h3 card-title">Wedding Photography</h3>
+
+                                <p class="card-subtitle">
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <a href="#" class="btn-icon" aria-label="see more">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li data-reveal>
+                        <div class="service-card container">
+                            <img src="images/service-2.jpg" width="340px" height="380px" loading="lazy"
+                                alt="Wedding Photography" class="img">
+
+                            <div>
+                                <h3 class="h3 card-title">Event Organiser</h3>
+
+                                <p class="card-subtitle">
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <a href="#" class="btn-icon" aria-label="see more">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li data-reveal>
+                        <div class="service-card container">
+                            <img src="images/service-3.jpg" width="340px" height="380px" loading="lazy"
+                                alt="Wedding Photography" class="img">
+
+                            <div>
+                                <h3 class="h3 card-title">Product Marketing</h3>
+
+                                <p class="card-subtitle">
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <a href="#" class="btn-icon" aria-label="see more">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li data-reveal>
+                        <div class="service-card container">
+                            <img src="images/service-4.jpg" width="340px" height="380px" loading="lazy"
+                                alt="Wedding Photography" class="img">
+
+                            <div>
+                                <h3 class="h3 card-title">Videography</h3>
+
+                                <p class="card-subtitle">
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <a href="#" class="btn-icon" aria-label="see more">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- service section end -->
+
+
+            <!-- portfolio section start -->
+
+            <section class="section portfolio" id="portfolio" aria-labelledby="">
+                <div class="container">
+                    <div class="portfolio-list">
+
+                        <div class="wrapper">
+                            <h2 class="h2 section-title" id="portfolio-label">My Recent Work</h2>
+
+                            <div class="portfolio-card" data-reveal="" style="width: 700; height: 605;">
+
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/portfolio-1.jpg" width="700" height="605" alt="Shoe Promo"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4">
+                                        <a href="#" class="card-title">Shoe Promo</a>
+                                    </h3>
+
+                                    <p class="card-card">Product</p>
+
+                                    <a href="#" class="btn-icon" aria-label="see more"><i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-card" data-reveal="" style="width: 700; height: 1091;">
+
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/portfolio-2.jpg" width="700" height="1091" alt="Wedding Shot"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4">
+                                        <a href="#" class="card-title">Wedding Shot</a>
+                                    </h3>
+
+                                    <p class="card-card">Wedding</p>
+
+                                    <a href="#" class="btn-icon" aria-label="see more"><i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="wrapper">
+                            <div class="portfolio-card" data-reveal="" style="width: 700; height: 1000;">
+
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/portfolio-3.jpg" width="700" height="1000" alt="Fashion Show"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4">
+                                        <a href="#" class="card-title">Fashion Show</a>
+                                    </h3>
+
+                                    <p class="card-card">Fashion</p>
+
+                                    <a href="#" class="btn-icon" aria-label="see more"><i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+
+
+                            </div>
+
+                            <div class="portfolio-card" data-reveal="" style="width: 700; height: 80;">
+
+                                <figure class="card-banner img-holder has-before">
+                                    <img src="images/portfolio-4.jpg" width="700" height="80" alt="Jumbo Burger"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4">
+                                        <a href="#" class="card-title">Jumbo Burger</a>
+                                    </h3>
+
+                                    <p class="card-card">Food</p>
+
+                                    <a href="#" class="btn-icon" aria-label="see more"><i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+                </div>
+            </section>
+
+            <!-- portfolio section end -->
+
+
+            <!-- footer start -->
+
+            <footer class="footer">
+
+                <div class="footer-top section" id="contact">
+                    <div class="container">
+                        <p class="section-subtitle" data-reveal>Contact Us</p>
+
+                        <h2 class="h2 section-title" data-reveal>
+                            Work inquiry, Job opportunities? Send Message.
+                        </h2>
+
+                        <a href="#" class="btn-icon" data-reveal>
+                            <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                                alt="arrow-forward icon">
+                        </a>
+
+                        <img src="images/footer-1.jpg" width="159" height="176" loading="lazy" alt="photography"
+                            class="abs-img abs-img-1" data-reveal>
+
+                        <img src="images/footer-2.jpg" width="265" height="275" loading="lazy" alt="hotography"
+                            class="abs-img abs-img-2" data-reveal>
+
+                        <img src="images/footer-4.jpg" width="303" height="272" loading="lazy" alt="photography"
+                            class="abs-img abs-img-4" data-reveal>
+
+
+                        <img src="images/footer-3.jpg" width="175" height="175" loading="lazy" alt="photography"
+                            class="abs-img abs-img-3" data-reveal>
+
+
+                        <img src="images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container footer-bottom-wrapper">
+
+                        <a href="#" class="logo">
+                            <img src="images/logo.svg" width="40" height="40" loading="lazy" alt="Richard home">
+                        </a>
+
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                        </ul>
+
+                        <p class="copyright">Made with Love</p>
+
+                    </div>
+                </div>
+
+                <div class="footer-bg has-before">
+                    <img src="images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+                        class="img-cover">
+                </div>
+            </footer>
+
+            <!-- footer end -->
+
+
+            <!-- back to top start-->
+
+            <a href="#top" class="back-top-btn show" aria-label="back to top" data-back-top-btn>0%</a>
+
+            <!-- back to top end-->
+
+
+            <!-- custom cursor -->
+
+            <div class="cursor" data-cursor></div>
+        </article>
+    </main>
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"></script>
+
+    <!-- script JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
